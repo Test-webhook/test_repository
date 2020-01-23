@@ -1,3 +1,7 @@
+# Author : Sammarth Kapse
+# Organiztion: Razorpay
+
+
 import requests
 from static_variables import *
 
@@ -89,6 +93,3 @@ def get_merged_by(merged_by):
         return None
     else:
         return merged_by[LOGIN]
-
-    # Footer
-    
