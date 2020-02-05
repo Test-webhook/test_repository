@@ -43,5 +43,3 @@ def get_tuple_for_review_action(pr_data, action):
     review_tuple = {ACTION: action, REPO: pr_data[BASE][REPO][FULL_NAME], NUMBER: pr_data[NUMBER],
                     TITLE: pr_data[TITLE], REQUESTED_REVIEWERS: get_requested_reviewers(pr_data[REQUESTED_REVIEWERS])}
     return review_tuple
-
-# flaNS
