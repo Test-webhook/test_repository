@@ -89,3 +89,4 @@ def get_merged_by(merged_by):
         return None
     else:
         return merged_by[LOGIN]
+//
