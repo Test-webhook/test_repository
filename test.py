@@ -1,7 +1,3 @@
-# Author : Sammarth Kapse
-# Organiztion: Razorpay
-
-
 import requests
 from static_variables import *
 
